@@ -1,0 +1,17 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "Playground project for JS/Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "html-pdf" : "node ./html-to-pdf/html-pdf.js",
+    "jspdf" : "node ./html-to-pdf/jspdf.js"
+  },
+  "author": "James Zhuo",
+  "license": "ISC",
+  "dependencies": {
+    "html-pdf": "^3.0.1",
+    "jspdf": "^2.5.1"
+  }
+}
