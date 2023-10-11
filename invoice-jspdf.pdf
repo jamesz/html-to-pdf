@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 100367
+/Length 101075
 >>
 stream
 0.5670000000000001 w
@@ -484,7 +484,10 @@ T* (         url\(https://fonts.gstatic.com/s/bungeehairline/v2/8Li3dr3whdkxuk7p
 T* (}) Tj
 T* () Tj
 T* (.row {) Tj
-T* (  /* page-break-inside: avoid; */) Tj
+T* (  /* -webkit-region-break-before: always;) Tj
+T* (  -webkit-region-break-inside: auto;) Tj
+T* (  page-break-before: always;) Tj
+T* (  page-break-inside: auto; */) Tj
 T* (}) Tj
 T* () Tj
 T* (.bill-print {) Tj
@@ -1037,7 +1040,10 @@ T* () Tj
 T* (div.row.retainer-entry,) Tj
 T* (div.row.fee-entry,) Tj
 T* (div.row.expense-entry {) Tj
-T* (  /* page-break-inside: avoid; */) Tj
+T* (  /* -webkit-region-break-before: always;) Tj
+T* (  -webkit-region-break-inside: always;) Tj
+T* (  page-break-before: always;) Tj
+T* (  page-break-inside: always; */) Tj
 T* (}) Tj
 T* () Tj
 T* (.total-of-total.cell {) Tj
@@ -1188,49 +1194,47 @@ T* () Tj
 T* () Tj
 T* (      <div class="bill-print page-container">) Tj
 T* (        <header>) Tj
-T* (          <div pdf-hf-data="Invoice No.: 1729">) Tj
+T* (          <div pdf-hf-data="Invoice No.: 1225">) Tj
 T* (            <!-- regular invoice header layout -->) Tj
 T* (            <div class="letterhead-layout" style="padding-bottom: 25px;">) Tj
 T* (              <div class=" ">) Tj
 T* (                  <div class="firm-logo">) Tj
-T* (                    <img src="https://staging-aus-billing-data-uploads.s3.ap-southeast-2.amazonaws.com/ff8616b8-dec7-492c-9f77-0a8ee0f205ad/logo.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72KTQ4EDWF&amp;Expires&#x3D;1696830817&amp;Signature&#x3D;6MyVxgCKl0b1IR8zC0db3NBaSbY%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDE%2FPh8XIYH8z03%2FzLiK%2FAb8%2B%2BM4TVC356ZQi6iijGf5t4YDrP8NXeC77YGxMPdxLyuAStdSsbRNUcQjphxfDnf7B%2Bu2aGaWsidk2z1WQbkNF0dDL4DwQn0T0ypXiOh6dt4x1VFxgFeIwnSoEPrwPnFaBKLoNs8XMkIPr8fWTUqrmP4fPBBSvhooKkyz4bEulGQpus9QZwaIjTR7SPs8BEg7FJ%2FRC8xJjSt4zDRRqt42zlSq2ghX0py6UPjpwyxych6T%2B8sDBoalEtwQ5929iKN2jjqkGMi3NQ7MeVoAkwDKMV%2BCpLOtkeve%2BETzHVBrSYDlCYzQWaD3WJrmdkE87NjnCUGA%3D" alt=""/>) Tj
+T* (                    <img src="https://staging-nova-billing-data-uploads.s3.amazonaws.com/58379d99-180d-4560-bf1d-ffd5511d0c5f/logo.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72PTWXPEAI&amp;Expires&#x3D;1697001612&amp;Signature&#x3D;HCx%2Fb3WiRAXl6c6ao%2F0ALAs9I5w%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDB%2BGYwCwzTzO%2B4oTgiK%2FASYKrOvjMI6kA1U9bPm%2BLz35zt9UKS95o317vs1je5vXVehzXKUBHUjA0HZblegdHxIT3tEVAU9cUbyT0i%2FU72XcUWwPyZhgfFF7qs4%2BCfdr1ZPMzPMDZ384YlOpNNEY%2BlZX0ojHqTIYmzXZQpcjFNoi8OX1dwdZ4Vfi2lgQ88swdy7Ef5H2y%2BDXir4lW9Ip42pdFWhgg5vcbo5yG9PaGPhK63oFUwtHuYPggg2q5cH0rS%2FSPABSyi4VY2TR7ld1KIjamKkGMi1%2Fu1xPGjGAcQBBNnTDKPClCI7o11e03FnXlxR3tJ%2BvqNxk%2FwGBGccFCzfywUs%3D" alt=""/>) Tj
 T* (                  </div>) Tj
 T* (                <div class="firm-info">) Tj
 T* (                  <div class="firm-details">) Tj
 T* (                    <span></span>) Tj
-T* (                    <span> ABN: 12 345 678 910</span>) Tj
 T* (                  </div>) Tj
 T* (                </div>) Tj
 T* (              </div>) Tj
 T* (              <div class="">) Tj
 T* (                    <div class="addressee-details">) Tj
-T* (                        <div class="addressee-name">Special Feeee5 Aaaaaa5</div>) Tj
-T* (                          <div>5</div>) Tj
-T* (                        <div>test 12,  12 road road</div>) Tj
-T* (                        <div>asd NT 1234</div>) Tj
+T* (                        <div class="addressee-name">Mx. AAAB AAA111</div>) Tj
+T* (                        <div></div>) Tj
+T* (                        <div></div>) Tj
+T* (                          <div>  </div>) Tj
 T* (                        <div>&nbsp;</div>) Tj
 T* (                    </div>) Tj
 T* (              </div>) Tj
 T* (                <div class="page-summary">) Tj
 T* (                  <h1 class="header">) Tj
-T* (                          Tax) Tj
 T* (                    Invoice) Tj
 T* (                  </h1>) Tj
 T* (                  <div class="row">) Tj
 T* (                    <span class="label">Invoice Number</span>) Tj
-T* (                    <span class="value r-align">1729</span>) Tj
+T* (                    <span class="value r-align">1225</span>) Tj
 T* (                  </div>) Tj
 T* (                  <div class="row">) Tj
 T* (                    <span class="label">Invoice Date</span>) Tj
-T* (                    <span class="value r-align">09/10/2023</span>) Tj
+T* (                    <span class="value r-align">10/11/2023</span>) Tj
 T* (                  </div>) Tj
 T* (                      <div class="row">) Tj
 T* (                        <span class="label">Payment Due On</span>) Tj
-T* (                        <span class="value r-align">16/10/2023</span>) Tj
+T* (                        <span class="value r-align">10/18/2023</span>) Tj
 T* (                      </div>) Tj
 T* (                  <div class="row total-row">) Tj
 T* (                    <span class="label">Amount Due</span>) Tj
-T* (                        <span class="value r-align">$1,070.37</span>) Tj
+T* (                        <span class="value r-align">$21,599.00</span>) Tj
 T* (                  </div>) Tj
 T* (                </div>) Tj
 T* (            </div>) Tj
@@ -1240,7 +1244,7 @@ T* (    ) Tj
 T* (        <!-- invoice body -->) Tj
 T* (        <section>) Tj
 T* (            <h1 class="header">) Tj
-T* (              Test multi-line entry descriptions) Tj
+T* (              AAA111-PP - AAA111 - Civil Appeal) Tj
 T* (            </h1>) Tj
 T* (    ) Tj
 T* (    ) Tj
@@ -1253,16 +1257,14 @@ T* (                    <span class="date cell">Date</span>) Tj
 T* (                    <span class="description cell ">) Tj
 T* (                        Description) Tj
 T* (                    </span>) Tj
-T* (                          <span class="total cell">Amount</span>) Tj
-T* (                          <span class="total cell">GST</span>) Tj
 T* (                      <span class="total cell">Total</span>) Tj
 T* (                  </div>) Tj
 T* (    ) Tj
 T* (                    <div class="row fee-entry">) Tj
-T* (                      <span class="date cell">02/01/2023</span>) Tj
+T* (                      <span class="date cell">10/09/2023</span>) Tj
 T* (                        <span class="description cell">) Tj
-T* (                          <p>Draft Contract</p>) Tj
-T* (                          ) Tj
+T* (                          <p>Services provided on 10/9/2023</p>) Tj
+T* (                          <p>- big load test 15k attended \(0.50hrs\) </p><p>- test line 1 \(1.00hrs\) </p><p>- test line 2 \(2.00hrs\) </p><p>- test line 3 \(3.00hrs\) </p><p>- test line 4 \(4.00hrs\) </p><p>- test line 5 \(5.00hrs\) </p><p>- test line 6  \(6.00hrs\) </p><p>- test line 7 \(7.00hrs\) </p><p>- test line 8 \(8.00hrs\) </p><p>- test line 9 \(9.00hrs\) </p><p>- test line 10 \(10.00hrs\) </p><p>- test line 11 \(0.10hrs\) </p><p>- test line 12 \(0.20hrs\) </p><p>- test line 13 \(0.30hrs\) </p><p>- test line 14 \(0.40hrs\) </p><p>- test line 15 \(0.50hrs\) </p><p>- test line 16 \(0.60hrs\) </p><p>- test line 17 \(0.70hrs\) </p><p>- test line 18 \(0.80hrs\) </p><p>- test line 19 \(0.90hrs\) </p><p>- test line 20 \(1.00hrs\) </p><p></p><p>&nbsp;</p>) Tj
 T* (                        </span>) Tj
 T* (    ) Tj
 T* (    ) Tj
@@ -1270,27 +1272,8 @@ T* (    ) Tj
 T* (    ) Tj
 T* (    ) Tj
 T* (    ) Tj
-T* (                            <span class="total cell ">$300.00</span>) Tj
-T* (                            <span class="total cell ">$30.00</span>) Tj
 T* (    ) Tj
-T* (                        <span class="total cell ">$330.00</span>) Tj
-T* (                    </div>) Tj
-T* (                    <div class="row fee-entry">) Tj
-T* (                      <span class="date cell">29/06/2023</span>) Tj
-T* (                        <span class="description cell">) Tj
-T* (                          <p>Fee with 30 lines of description</p>) Tj
-T* (                          <p>Test fee with 30+ lines of description with some extra long words that might cause wrapping that then breaks asdfghjklqwertyuiopppzcvbnm</p><p>Test line 1</p><p>Test line 2</p><p>Test line 3</p><p>Test line 4</p><p>Test line 5</p><p>Test line 6</p><p>Test line 7</p><p>Test line 8</p><p>Test line 9</p><p>Test line 10</p><p>Test line 11</p><p>Test line 12</p><p>Test line 13</p><p>Test line 14</p><p>Test line 15</p><p>Test line 16</p><p>Test line 17</p><p>Test line 18</p><p>Test line 19</p><p>Test line 20</p><p>Test line 21</p><p>Test line 22</p><p>Test line 23</p><p>Test line 24</p><p>Test line 25</p><p>Test line 26</p><p>Test line 27</p><p>Test line 28</p><p>Test line 29</p><p>Test line 30</p>) Tj
-T* (                        </span>) Tj
-T* (    ) Tj
-T* (    ) Tj
-T* (    ) Tj
-T* (    ) Tj
-T* (    ) Tj
-T* (    ) Tj
-T* (                            <span class="total cell ">$30.00</span>) Tj
-T* (                            <span class="total cell ">$3.00</span>) Tj
-T* (    ) Tj
-T* (                        <span class="total cell ">$33.00</span>) Tj
+T* (                        <span class="total cell ">$20,130.00</span>) Tj
 T* (                    </div>) Tj
 T* (                    <div class="row">) Tj
 T* (                      <span class="date cell">&nbsp;</span>) Tj
@@ -1300,9 +1283,7 @@ T* (    ) Tj
 T* (    ) Tj
 T* (    ) Tj
 T* (    ) Tj
-T* (                            <span class="total-of-total total cell">$330.00</span>) Tj
-T* (                            <span class="total-of-total total cell">$33.00</span>) Tj
-T* (                        <span class="total-of-total total cell">$363.00</span>) Tj
+T* (                        <span class="total-of-total total cell">$20,130.00</span>) Tj
 T* (                    </div>) Tj
 T* (                </div>) Tj
 T* (              </div>) Tj
@@ -1310,6 +1291,67 @@ T* (    ) Tj
 T* (    ) Tj
 T* (          <div style=") Tj
 T* (    ">) Tj
+T* (                <div class="expenses list">) Tj
+T* (                <h2>Expenses</h2>) Tj
+T* (                  <div class="grid">) Tj
+T* (                    <div class="header row">) Tj
+T* (                      <span class="date cell">Date</span>) Tj
+T* (                      <span class="description cell ">) Tj
+T* (                          Description) Tj
+T* (                      </span>) Tj
+T* (                      <span class="rate cell">Cost</span>) Tj
+T* (                      <span class="quantity cell">Qty</span>) Tj
+T* (                      <span class="total cell">Total</span>) Tj
+T* (                    </div>) Tj
+T* (                      <div class="row expense-entry">) Tj
+T* (                        <span class="date cell">07/04/2023</span>) Tj
+T* (                          <span class="description cell ">) Tj
+T* (                            <p>T1.2</p>) Tj
+T* (                            ) Tj
+T* (                          </span>) Tj
+T* (                          <span class="rate cell">$11.00</span>) Tj
+T* (                        <span class="quantity cell">1.00</span>) Tj
+T* (                        <span class="total cell ">$11.00</span>) Tj
+T* (                      </div>) Tj
+T* (                      <div class="row expense-entry">) Tj
+T* (                        <span class="date cell">07/04/2023</span>) Tj
+T* (                          <span class="description cell ">) Tj
+T* (                            <p>T2.1</p>) Tj
+T* (                            ) Tj
+T* (                          </span>) Tj
+T* (                          <span class="rate cell">$9.00</span>) Tj
+T* (                        <span class="quantity cell">1.00</span>) Tj
+T* (                        <span class="total cell ">$9.00</span>) Tj
+T* (                      </div>) Tj
+T* (                      <div class="row expense-entry">) Tj
+T* (                        <span class="date cell">07/04/2023</span>) Tj
+T* (                          <span class="description cell ">) Tj
+T* (                            <p>T3.1</p>) Tj
+T* (                            ) Tj
+T* (                          </span>) Tj
+T* (                          <span class="rate cell">$15.00</span>) Tj
+T* (                        <span class="quantity cell">1.00</span>) Tj
+T* (                        <span class="total cell ">$15.00</span>) Tj
+T* (                      </div>) Tj
+T* (                      <div class="row expense-entry">) Tj
+T* (                        <span class="date cell">07/04/2023</span>) Tj
+T* (                          <span class="description cell ">) Tj
+T* (                            <p>T4</p>) Tj
+T* (                            ) Tj
+T* (                          </span>) Tj
+T* (                          <span class="rate cell">$2.00</span>) Tj
+T* (                        <span class="quantity cell">12.00</span>) Tj
+T* (                        <span class="total cell ">$24.00</span>) Tj
+T* (                      </div>) Tj
+T* (                    <div class="row">) Tj
+T* (                      <span class="date cell">&nbsp;</span>) Tj
+T* (                      <span class="description cell">&nbsp;</span>) Tj
+T* (                      <span class="rate cell">&nbsp;</span>) Tj
+T* (                      <span class="quantity cell">&nbsp;</span>) Tj
+T* (                      <span class="total-of-total total cell">$59.00</span>) Tj
+T* (                    </div>) Tj
+T* (                  </div>) Tj
+T* (                </div>) Tj
 T* (          </div>) Tj
 T* (    ) Tj
 T* (    ) Tj
@@ -1317,23 +1359,19 @@ T* (    ) Tj
 T* (          <div class="totals-block">) Tj
 T* (            <div class="row subtotal">) Tj
 T* (              <span class="label">Subtotal</span>) Tj
-T* (              <span class="value">$330.00</span>) Tj
+T* (              <span class="value">$20,189.00</span>) Tj
 T* (            </div>) Tj
 T* (    ) Tj
-T* (                  <div class="row tax">) Tj
-T* (                    <span class="label">GST</span>) Tj
-T* (                    <span class="value">$33.00</span>) Tj
-T* (                  </div>) Tj
 T* (              <div class="row total">) Tj
 T* (                <span class="label">Total</span>) Tj
-T* (                <span class="value">$363.00</span>) Tj
+T* (                <span class="value">$20,189.00</span>) Tj
 T* (              </div>) Tj
 T* (    ) Tj
 T* (    ) Tj
 T* (    ) Tj
 T* (                    <div class="row">) Tj
 T* (                      <span class="label">Prior Balances</span>) Tj
-T* (                      <span class="value">$707.37</span>) Tj
+T* (                      <span class="value">$1,410.00</span>) Tj
 T* (                    </div>) Tj
 T* (    ) Tj
 T* (            <!-- show less funds in trust -->) Tj
@@ -1341,14 +1379,13 @@ T* (    ) Tj
 T* (            <!-- show total due excluding retainer if applicable -->) Tj
 T* (              <div class="row total-due">) Tj
 T* (                <span class="label">Total Balance Due</span>) Tj
-T* (                  <span class="value r-align">$1,070.37</span>) Tj
+T* (                  <span class="value r-align">$21,599.00</span>) Tj
 T* (              </div>) Tj
 T* (    ) Tj
 T* (            <!-- total payment due if using retainer -->) Tj
 T* (          </div>) Tj
 T* (    ) Tj
 T* (    ) Tj
-T* (            <div class="page-break"></div>) Tj
 T* (    ) Tj
 T* (    ) Tj
 T* (              <div class="payment-summary">) Tj
@@ -1363,44 +1400,20 @@ T* (                    <span class="amount cell">Payments/Credits</span>) Tj
 T* (                    <span class="amount cell">Due</span>) Tj
 T* (                  </div>) Tj
 T* (                    <div class="row">) Tj
-T* (                      <span class="date cell">04/10/2022</span>) Tj
-T* (                      <span class="invoice-number cell">1153</span>) Tj
-T* (                      <span class="date cell">11/10/2022</span>) Tj
-T* (                      <span class="amount cell">$16.50</span>) Tj
+T* (                      <span class="date cell">04/28/2023</span>) Tj
+T* (                      <span class="invoice-number cell">1095</span>) Tj
+T* (                      <span class="date cell">05/05/2023</span>) Tj
+T* (                      <span class="amount cell">$1,410.00</span>) Tj
 T* (                      <span class="amount cell">$0.00</span>) Tj
-T* (                      <span class="amount cell">$16.50</span>) Tj
-T* (                    </div>) Tj
-T* (                    <div class="row">) Tj
-T* (                      <span class="date cell">06/11/2022</span>) Tj
-T* (                      <span class="invoice-number cell">1236</span>) Tj
-T* (                      <span class="date cell">13/11/2022</span>) Tj
-T* (                      <span class="amount cell">$308.17</span>) Tj
-T* (                      <span class="amount cell">$0.00</span>) Tj
-T* (                      <span class="amount cell">$308.17</span>) Tj
-T* (                    </div>) Tj
-T* (                    <div class="row">) Tj
-T* (                      <span class="date cell">13/12/2022</span>) Tj
-T* (                      <span class="invoice-number cell">1315</span>) Tj
-T* (                      <span class="date cell">20/12/2022</span>) Tj
-T* (                      <span class="amount cell">$232.10</span>) Tj
-T* (                      <span class="amount cell">$0.00</span>) Tj
-T* (                      <span class="amount cell">$232.10</span>) Tj
-T* (                    </div>) Tj
-T* (                    <div class="row">) Tj
-T* (                      <span class="date cell">16/12/2022</span>) Tj
-T* (                      <span class="invoice-number cell">1323</span>) Tj
-T* (                      <span class="date cell">23/12/2022</span>) Tj
-T* (                      <span class="amount cell">$150.60</span>) Tj
-T* (                      <span class="amount cell">$0.00</span>) Tj
-T* (                      <span class="amount cell">$150.60</span>) Tj
+T* (                      <span class="amount cell">$1,410.00</span>) Tj
 T* (                    </div>) Tj
 T* (                    <div class="row">) Tj
 T* (                      <span class="date total-of-total cell">Total</span>) Tj
 T* (                      <span class="invoice-number total-of-total total cell"></span>) Tj
 T* (                      <span class="date total-of-total total cell"></span>) Tj
-T* (                      <span class="amount total-of-total total cell">$707.37</span>) Tj
+T* (                      <span class="amount total-of-total total cell">$1,410.00</span>) Tj
 T* (                      <span class="amount total-of-total total cell">$0.00</span>) Tj
-T* (                      <span class="amount total-of-total total cell">$707.37</span> ) Tj
+T* (                      <span class="amount total-of-total total cell">$1,410.00</span> ) Tj
 T* (                    </div>) Tj
 T* (                </div>) Tj
 T* (                ) Tj
@@ -1410,7 +1423,7 @@ T* (    ) Tj
 T* (          <div class="footer-notes) Tj
 T* (          "><p></p>) Tj
 T* (              <div class="signature-image">) Tj
-T* (                <img src="https://staging-aus-billing-data-uploads.s3.ap-southeast-2.amazonaws.com/ff8616b8-dec7-492c-9f77-0a8ee0f205ad/821c0e1d-0022-497f-be2f-7946e0e68c21/signature.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72PSEQLIAO&amp;Expires&#x3D;1696833518&amp;Signature&#x3D;wK9QqgwMMQO0%2FWwYKzXq6cLwZiI%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDC2VQyZdr1SfZgnZwiKxAYPNCVjqC4VtHsM8ZKInLQGYO9c7RT971Yl8uO0%2BX04ktBh6TLXolMC6NqtO2Ogi5qNnIVhIsf1zvdDS1zSCud4tnGH%2Bs%2BFm%2BwFQkLdpkz7pFpesvU29%2FcjJcHrtjL2w3ps8vQBW%2BQqq4Zk3dXi71IzQyxlaLo1Pyyd8GaISQ%2BeGXPq9y8PDK5GqrqyQZTCUJZ3%2FvlxIaT6CZ1set9szZp12V00ZMykqyFxS5HohhYGUFCjeo46pBjItNIFU8tx5P2rA7mO498jqBEJMr%2FMv2446yUmm9gavdqAAWRsWyBosESg1zBD%2F" alt=""/>) Tj
+T* (                <img src="https://staging-nova-billing-data-uploads.s3.amazonaws.com/58379d99-180d-4560-bf1d-ffd5511d0c5f/1c4bc653-1932-41f9-b1e6-c8f3988d5504/signature.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72BOC65EOQ&amp;Expires&#x3D;1697004315&amp;Signature&#x3D;Kl%2BP%2BM6XvGfsUGssAHQa3NSySyg%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDBTVeiC3%2FCvyPuM36SKxAYyPaqJ4aAha%2Fylm5Iq3qCCpUUUDfw8jy9D4eXcx77hGzCH9SYxo5m8ERR0h5iZ59PRKsvXupcg%2F59d%2F1FEWstAoXcUTIpGUzY%2BVrMeiDVeeDd5dHMTf4WRKEOEi%2FnWe1TwsuNe4ofMx6x8Sn02S19H27xYZ7Cw2czvt%2FDVvTMhoEsrsVtRV1Ts2yuPbIZ87gTiNAKwy6zbpepKoM710WPgultjsXmtZ3BoGhh3QUNDGaiis2JipBjItPBENci62bl47GH5AdzOawqXg8p9Mx%2B5ng4AxkGmoznJjK9S%2B%2F6GVhsKxKLN%2B" alt=""/>) Tj
 T* (              </div>) Tj
 T* (          </div>) Tj
 T* (    ) Tj
@@ -1600,7 +1613,7 @@ endobj
 19 0 obj
 <<
 /Producer (jsPDF 2.5.1)
-/CreationDate (D:20231010125258+11'00')
+/CreationDate (D:20231011160928+11'00')
 >>
 endobj
 20 0 obj
@@ -1614,33 +1627,33 @@ endobj
 xref
 0 21
 0000000000 65535 f 
-0000100573 00000 n 
-0000102390 00000 n 
+0000101281 00000 n 
+0000103098 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000100630 00000 n 
-0000100755 00000 n 
-0000100885 00000 n 
-0000101018 00000 n 
-0000101155 00000 n 
-0000101278 00000 n 
-0000101407 00000 n 
-0000101539 00000 n 
-0000101675 00000 n 
-0000101803 00000 n 
-0000101930 00000 n 
-0000102059 00000 n 
-0000102192 00000 n 
-0000102294 00000 n 
+0000101338 00000 n 
+0000101463 00000 n 
+0000101593 00000 n 
+0000101726 00000 n 
+0000101863 00000 n 
+0000101986 00000 n 
+0000102115 00000 n 
+0000102247 00000 n 
+0000102383 00000 n 
+0000102511 00000 n 
 0000102638 00000 n 
-0000102724 00000 n 
+0000102767 00000 n 
+0000102900 00000 n 
+0000103002 00000 n 
+0000103346 00000 n 
+0000103432 00000 n 
 trailer
 <<
 /Size 21
 /Root 20 0 R
 /Info 19 0 R
-/ID [ <AEF484F6455E99B02E912761EF814697> <AEF484F6455E99B02E912761EF814697> ]
+/ID [ <4BA5B410A2F82A96281B21ED635B788D> <4BA5B410A2F82A96281B21ED635B788D> ]
 >>
 startxref
-102828
+103536
 %%EOF
