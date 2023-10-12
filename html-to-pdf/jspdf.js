@@ -5,6 +5,8 @@ const { readInvoiceHtmlFile } = require('./read-invoice-html-file');
 console.log('See text.pdf in local directory');
 const doc = new jsPDF();
 
+// Note: This won't render the html with node, it might do its job on the browser as the
+// package seems pretty popular, but it's useless as a server side solution for generating PDFs
 var invoiceHtml = readInvoiceHtmlFile()
 doc.text(invoiceHtml, 10, 10);
 doc.save("invoice-jspdf.pdf");
