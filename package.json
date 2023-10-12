@@ -6,12 +6,14 @@
   "scripts": {
     "start": "node index.js",
     "html-pdf": "node ./html-to-pdf/html-pdf.js",
-    "jspdf": "node ./html-to-pdf/jspdf.js"
+    "jspdf": "node ./html-to-pdf/jspdf.js",
+    "weasyprint": "node ./html-to-pdf/weasyprint.js"
   },
   "author": "James Zhuo",
   "license": "ISC",
   "dependencies": {
     "html-pdf": "^3.0.1",
+    "htmltopdf-weasyprint": "^1.0.8",
     "jspdf": "^2.5.1"
   }
 }
