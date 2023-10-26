@@ -364,129 +364,185 @@ body {
     width: 200px;
 }
 
-@page {
-  size: Letter;
-  margin: 1in;
-}
 
 @font-face {
-    font-family: 'Bungee Hairline';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/BungeeHairline-Regular.ttf) format('truetype'), local('Bungee Hairline'), local('BungeeHairline-Regular'),
-         url(https://fonts.gstatic.com/s/bungeehairline/v2/8Li3dr3whdkxuk7pmLaZaTZ6Y9WhilnvSkF-e4PL1VU.ttf) format('truetype');
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Arvo-Regular.ttf) format('truetype'), local('Arvo'), local('Arvo-Regular'),
+    url(https://fonts.gstatic.com/s/arvo/v9/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
 }
 
+/*
 @font-face {
-    font-family: 'Arvo';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Arvo-Regular.ttf) format('truetype'), local('Arvo'),
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 500;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Arvo-Regular.ttf) format('truetype'), local('Arvo'), local('Arvo-Regular'),
     url(https://fonts.gstatic.com/s/arvo/v9/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Lato-Regular.ttf) format('truetype'), local('Lato Regular'), local('Lato-Regular'),
-         url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 600;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Arvo-Regular.ttf) format('truetype'), local('Arvo'), local('Arvo-Regular'),
+    url(https://fonts.gstatic.com/s/arvo/v9/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Merriweather-Regular.ttf) format('truetype'), local('Merriweather'), local('Merriweather-Regular'),
-         url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Arvo-Regular.ttf) format('truetype'), local('Arvo'), local('Arvo-Regular'),
+    url(https://fonts.gstatic.com/s/arvo/v9/MViwy4K6e56oHcyeMzjbCQ.ttf) format('truetype');
+}
+*/
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Arvo-Bold.ttf) format('truetype'), local('Arvo'), local('Arvo-Bold'),
+    url(https://fonts.gstatic.com/s/arvo/v22/tDbM2oWUg0MKoZw1-LPK8w.woff2) format('woff2');
 }
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Light.ttf) format('truetype'), local('Roboto Light'), local('Roboto-Light'),
-         url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Lato-Regular.ttf) format('truetype'), local('Lato Regular'), local('Lato-Regular'),
+    url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Regular.ttf) format('truetype'), local('Roboto'), local('Roboto-Regular'),
-         url(https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype');
+  font-family: 'Lato';
+  font-style: bold;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Lato-Bold.ttf) format('truetype'), local('Lato Bold'), local('Lato-Bold'),
+    url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
 }
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Bold.ttf) format('truetype'), local('Roboto Bold'), local('Roboto-Bold'),
-         url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Merriweather-Regular.ttf) format('truetype'), local('Merriweather'), local('Merriweather-Regular'),
+    url(https://fonts.gstatic.com/s/merriweather/v13/RFda8w1V0eDZheqfcyQ4EInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Italic.ttf) format('truetype');
-    src: local('Roboto Italic'), local('Roboto-Italic'),
-         url(https://fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Merriweather-Bold.ttf) format('truetype'), local('Merriweather Bold'), local('Merriweather-Bold'),
+    url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZVsf6lvg.woff2) format('woff2');
 }
 
 @font-face {
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 700;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-BoldItalic.ttf) format('truetype'), local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
-         url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC50EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Light.ttf) format('truetype'), local('Roboto Light'), local('Roboto-Light'),
+    url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/OpenSans-Regular.ttf) format('truetype'), local('Open Sans'), local('OpenSans'),
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Regular.ttf) format('truetype'), local('Roboto'), local('Roboto-Regular'),
+    url(https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Bold.ttf) format('truetype'), local('Roboto Bold'), local('Roboto-Bold'),
+    url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-Italic.ttf) format('truetype'), local('Roboto Italic'), local('Roboto-Italic'),
+    url(https://fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Roboto-BoldItalic.ttf) format('truetype'), local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+    url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC50EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/OpenSans-Regular.ttf) format('truetype'), local('Open Sans'), local('OpenSans'),
     url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Slabo 27px';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Slabo27px-Regular.ttf) format('truetype'), local('Slabo 27px'), local('Slabo27px-Regular'),
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/OpenSans-Bold.ttf) format('truetype'), local('Open Sans Bold'), local('OpenSans-Bold'),
+    url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVI.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4uaVIGxA.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Slabo 27px';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/Slabo27px-Regular.ttf) format('truetype'), local('Slabo 27px'), local('Slabo27px-Regular'),
     url(https://fonts.gstatic.com/s/slabo27px/v3/PuwvqkdbcqU-fCZ9Ed-b7S3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'Bungee Hairline';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/BungeeHairline-Regular.ttf) format('truetype'), local('Bungee Hairline'), local('BungeeHairline-Regular'),
-         url(https://fonts.gstatic.com/s/bungeehairline/v2/8Li3dr3whdkxuk7pmLaZaTZ6Y9WhilnvSkF-e4PL1VU.ttf) format('truetype');
+  font-family: 'Bungee Hairline';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/usr/src/app/endpoints/monorepo/billing/modules/compile-pdf/fonts/BungeeHairline-Regular.ttf) format('truetype'), local('Bungee Hairline'), local('BungeeHairline-Regular'),
+    url(https://fonts.gstatic.com/s/bungeehairline/v2/8Li3dr3whdkxuk7pmLaZaTZ6Y9WhilnvSkF-e4PL1VU.ttf) format('truetype');
 }
 
 .row {
-  /* -webkit-region-break-before: always;
-  -webkit-region-break-inside: auto;
-  page-break-before: always;
-  page-break-inside: auto; */
+  /* page-break-inside: avoid; */
 }
 
 .bill-print {
   position: relative;
-  font-size: 9pt;
+  font-size: 8.5pt;
   line-height: 130%;
 }
 .bill-print * {
   box-sizing: border-box;
 }
+.bill-print header .firm-details {
+  min-width: 200px;
+  border: 1px dotted blue;
+}
 .bill-print header .firm-details .firm-name {
+  /* .firm-name doesn't look to be used */
   font-weight: bold;
+  border: 1px solid red;
+}
+.bill-print header .firm-details .acn,
+.bill-print header .firm-details .abn {
+  /* display: inline-block; */
+  border: 1px solid green;
 }
 .bill-print header .addressee-details {
   padding-top: 3.9cm;
-  font-size: 9pt;
+  font-size: 8.5pt;
   line-height: 120%;
   min-height: 8.3cm;
 }
@@ -504,7 +560,7 @@ body {
   width: 100%;
 }
 .bill-print section .cover-letter {
-  font-size: 10pt;
+  font-size: 9.5pt;
   line-height: 120%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -544,6 +600,8 @@ body {
   page-break-before: always;
   padding-top: 12px;
 }
+
+/* START TABLES/GRIDS */
 .bill-print section .grid {
   display: table;
   width: 100%;
@@ -556,16 +614,71 @@ body {
   display: table-cell;
   border-bottom: 1px solid #ddd;
   padding: 3px 8px;
+  width: auto; /* to help Weasyprint render table columns in a more compact manner */
+  /* uncomment below to help debug table rendering */
+  /* border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;   */
 }
-.bill-print section .grid .row .cell.rate, .bill-print section .grid .row .cell.units, .bill-print section .grid .row .cell.duration, .bill-print section .grid .row .cell.quantity, .bill-print section .grid .row .cell.total, .bill-print section .grid .row .cell.balance, .bill-print section .grid .row .cell.paid, .bill-print section .grid .row .cell.credit, .bill-print section .grid .row .cell.debit, .bill-print section .grid .row .cell.invoiced, .bill-print section .grid .row .cell.due {
+.bill-print section .grid .row .cell.rate,
+.bill-print section .grid .row .cell.units,
+.bill-print section .grid .row .cell.duration,
+.bill-print section .grid .row .cell.quantity,
+.bill-print section .grid .row .cell.total,
+.bill-print section .grid .row .cell.balance,
+.bill-print section .grid .row .cell.paid,
+.bill-print section .grid .row .cell.credit,
+.bill-print section .grid .row .cell.debit,
+.bill-print section .grid .row .cell.invoiced,
+.bill-print section .grid .row .cell.due {
   text-align: right;
-  width: 2.2cm;
+  /* width: 1.6cm; */
 }
-.bill-print section .grid .row .cell.date {
-  width: 2.5cm;
+
+.border-modern .bill-print section .grid .row .cell.item-number,
+.border-classic .bill-print section .grid .row .cell.item-number,
+.border-stripes .bill-print section .grid .row .cell.item-number {
+  width: 1cm;
 }
-.bill-print section .grid .row .cell.inv-no {
-  width: 3.2cm;
+
+.border-modern .bill-print section .grid .row .cell.date,
+.border-classic .bill-print section .grid .row .cell.date,
+.border-stripes .bill-print section .grid .row .cell.date {
+  width: 1.6cm;
+}
+
+.description.width-max {
+  width: 100%;
+}
+div.row .description.summary.cell {
+  white-space: pre-line;
+}
+div.row .description.cell p {
+  margin: 0 0;
+  word-break: break-word;
+  min-width: 120px;
+  max-width: 400px;
+}
+
+.border-modern .bill-print section .grid .row .cell.name,
+.border-classic .bill-print section .grid .row .cell.name,
+.border-stripes .bill-print section .grid .row .cell.name { /* staff initials */
+  width: 1cm;
+}
+
+.bill-print section .grid .row .cell.interest {
+  text-align: right;
+  width: 1.6cm;
+}
+/* .bill-print section .grid .row .cell.invoice-number {
+  width: auto;
+} */
+.bill-print section .grid .row .cell.payments-or-credits {
+  text-align: right;
+  /* width: auto; */
+}
+.bill-print section .grid .row .cell.amount {
+  width: 1.8cm;
+
 }
 .bill-print section .grid .row.header {
   -webkit-print-color-adjust: exact;
@@ -575,6 +688,8 @@ body {
 .bill-print section h1.header {
   line-height: 150%;
 }
+
+/* END TABLES/GRIDS */
 
 /* layout 1, 2, 3, 4 */
 .lh-justified-left-selected h1.header.qr-code,
@@ -600,7 +715,7 @@ body {
 }
 
 .bill-print section h1.header + p {
-  font-size: 12pt;
+  font-size: 11.5pt;
   /* will hit the 'subtitle' */
 }
 .bill-print section .grid .row.header .cell {
@@ -612,10 +727,14 @@ body {
 .bill-print section .grid .row.totals .cell {
   padding: 12px 8px;
 }
+.bill-print section .totals-block-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .bill-print section .totals-block {
   width: 10cm;
   margin-bottom: 50px;
-  float: right;
+  float: right;  /* can be dreprecated with retirement of wkhtmltopdf */
   font-weight: bold;
   font-size: 1.1em;
   page-break-inside: avoid;
@@ -634,8 +753,9 @@ body {
   display: table-cell;
   text-align: right;
 }
-.bill-print section .totals-block + * {
-  clear: right;
+.bill-print section .totals-block + *,
+.bill-print section .totals-block-container + * {
+  clear: right; /* can be dreprecated with retirement of wkhtmltopdf */
 }
 .r-align {
   text-align: right;
@@ -747,6 +867,7 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
 }
 
 .letterhead-layout .lh-hori-stack-left .firm-logo {
@@ -774,6 +895,7 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
   position: absolute;
   top: 0;
   right: 0;
+  width: 100%;
 }
 
 .letterhead-layout .lh-hori-stack-right .firm-logo {
@@ -792,7 +914,7 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
   padding-right: 0mm;
   display: inline-block;
   text-align: right;
-  float: left;
+  float: right;
 }
 /*END HORZ STACK RIGHT*/
 
@@ -865,6 +987,7 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
 /*END VERTICAL STACK CENTER*/
 
 
+/*GRID STYLE*/
 .border-modern .bill-print section .grid,
 .border-classic .bill-print section .grid,
 .border-stripes .bill-print section .grid {
@@ -885,8 +1008,10 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
   display: table-cell;
   border-bottom: 1px solid #ddd;
   padding: 5px 8px;
+  width: auto;
 }
 
+/* 
 .border-modern .bill-print section .grid .cell.rate,
 .border-classic .bill-print section .grid .cell.rate,
 .border-stripes .bill-print section .grid .cell.rate,
@@ -942,10 +1067,13 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
   width: 3.2cm;
 }
 
+*/
+
 .border-modern .bill-print section .grid .row.header,
 .border-classic .bill-print section .grid .row.header,
 .border-stripes .bill-print section .grid .row.header {
   -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
   background: #EAEAEA !important;
   font-weight: bold;
 }
@@ -1007,26 +1135,13 @@ body.lh-vert-stack-center-selected .bill-print header .page-summary {
   background: #eee !important;
 }
 
-.description.width-max {
-  width: 100%;
-}
-div.row .description.summary.cell {
-  white-space: pre-line;
-}
-div.row .description.cell p {
-  margin: 0 0;
-  word-break: break-word;
-  min-width: 200px;
-  max-width: 400px;
-}
+/*END GRID STYLE*/
+
 
 div.row.retainer-entry,
 div.row.fee-entry,
 div.row.expense-entry {
-  /* -webkit-region-break-before: always;
-  -webkit-region-break-inside: always;
-  page-break-before: always;
-  page-break-inside: always; */
+  /* page-break-inside: avoid; */
 }
 
 .total-of-total.cell {
@@ -1086,7 +1201,7 @@ h2 {
   border-top: 5px double black !important;  
 }
 
-.payment-summary {
+.payment-summary, .prior-balances {
   page-break-inside: avoid;
 }
 
@@ -1156,15 +1271,17 @@ div.page-summary.consolidated {
       }
 
       .firm-name {
-        font-family: ;
-        font-size: ;
+        font-family: Arvo;
+        font-size: 8pt;
         line-height: 110%
       }
 
+    /* @page rules to control margin & page size with weasyprint */
+    /*[PAGE-RULES]*/
   </style>
 </head>
 
-<body class="body-scroll -selected border- watermark">
+<body class="body-scroll lh-justified-left-selected border-modern watermark">
 
 
 
@@ -1177,47 +1294,52 @@ div.page-summary.consolidated {
 
       <div class="bill-print page-container">
         <header>
-          <div pdf-hf-data="Invoice No.: 1225">
+          <div pdf-hf-data="Invoice No.: 0">
             <!-- regular invoice header layout -->
             <div class="letterhead-layout" style="padding-bottom: 25px;">
-              <div class=" ">
+              <div class=" lh-justified-left">
                   <div class="firm-logo">
-                    <img src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/law-firm-logo.jpg" alt=""/>
+                    <img src="https://staging-aus-billing-data-uploads.s3.ap-southeast-2.amazonaws.com/ff8616b8-dec7-492c-9f77-0a8ee0f205ad/logo.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72OKCWH64N&amp;Expires&#x3D;1698301239&amp;Signature&#x3D;TD3%2B3ney0Qp6XLtvIgrS%2B3xZ7Vk%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEFgaDD45IwWHsuY8wsrlhiK%2FAY2pwkVYZxRgXZEhcq%2Bgtev1pSzQfFnxDruzsTH1D1%2Fqv%2FZPnXwZrhPwzQGeEhskAnWEl4BXCfF8d%2Bbxo1Muo9Yof6C6LBUhHpsdy49XjgYjPbnTW%2Fq2WsWk6pYc%2F3rDB5BsCGiLko5amAgwf1ELLmxABM78vXFLm6Uez8DapFr34oeMwEWtVN8IhKhfJw7CmSs8PUxw8QEIm%2FpUxvnWu2Dgr9tkyoq9ayB6IZZ8w71TEXdGl9qWkvZq7ShtM32wKLKD6KkGMi0uowdegPtvkMB86I4kvA708qEgMbFJJoEmZ0NZyZ8lRyMonKhQOQeLQhL3rvE%3D" alt=""/>
                   </div>
                 <div class="firm-info">
                   <div class="firm-details">
-                    <span></span>
+                    <div>
+                      <div class="firm-name"><strong>Smokeball Family Law</strong></div>
+                      <div>44 Bridge Road</div>
+                      <div>Marrickville, NSW 2XXX</div>
+                    </div>
+                    <div class="abn">ABN: XXXXXXXXX</div>
                   </div>
                 </div>
               </div>
               <div class="">
                     <div class="addressee-details">
-                        <div class="addressee-name">Mx. AAAB AAA111</div>
-                        <div></div>
-                        <div></div>
-                          <div>  </div>
+                        <div class="addressee-name">Smokeball</div>
+                        <div>Level 8, 20 Bridge Street</div>
+                        <div>Sydney NSW 2000</div>
                         <div>&nbsp;</div>
                     </div>
               </div>
                 <div class="page-summary">
                   <h1 class="header">
+                          Tax
                     Invoice
                   </h1>
                   <div class="row">
                     <span class="label">Invoice Number</span>
-                    <span class="value r-align">1225</span>
+                    <span class="value r-align">0</span>
                   </div>
                   <div class="row">
                     <span class="label">Invoice Date</span>
-                    <span class="value r-align">10/11/2023</span>
+                    <span class="value r-align">26/10/2023</span>
                   </div>
                       <div class="row">
                         <span class="label">Payment Due On</span>
-                        <span class="value r-align">10/18/2023</span>
+                        <span class="value r-align">02/11/2023</span>
                       </div>
                   <div class="row total-row">
                     <span class="label">Amount Due</span>
-                        <span class="value r-align">$21,599.00</span>
+                        <span class="value r-align">$1,626.50</span>
                   </div>
                 </div>
             </div>
@@ -1227,7 +1349,7 @@ div.page-summary.consolidated {
         <!-- invoice body -->
         <section>
             <h1 class="header">
-              AAA111-PP - AAA111 - Civil Appeal
+              [matter description will appear here]
             </h1>
     
     
@@ -1238,25 +1360,96 @@ div.page-summary.consolidated {
                   <div class="header row">
                     <span class="date cell">Date</span>
                     <span class="description cell ">
-                        Description
+                        Subject
                     </span>
+                          <span class="total cell">Amount</span>
+                          <span class="total cell">GST</span>
                       <span class="total cell">Total</span>
                   </div>
     
                     <div class="row fee-entry">
-                      <span class="date cell">10/09/2023</span>
-                        <span class="description cell">
-                          <p>Services provided on 10/9/2023</p>
-                          <p>- big load test 15k attended (0.50hrs) </p><p>- test line 1 (1.00hrs) </p><p>- test line 2 (2.00hrs) </p><p>- test line 3 (3.00hrs) </p><p>- test line 4 (4.00hrs) </p><p>- test line 5 (5.00hrs) </p><p>- test line 6  (6.00hrs) </p><p>- test line 7 (7.00hrs) </p><p>- test line 8 (8.00hrs) </p><p>- test line 9 (9.00hrs) </p><p>- test line 10 (10.00hrs) </p><p>- test line 11 (0.10hrs) </p><p>- test line 12 (0.20hrs) </p><p>- test line 13 (0.30hrs) </p><p>- test line 14 (0.40hrs) </p><p>- test line 15 (0.50hrs) </p><p>- test line 16 (0.60hrs) </p><p>- test line 17 (0.70hrs) </p><p>- test line 18 (0.80hrs) </p><p>- test line 19 (0.90hrs) </p><p>- test line 20 (1.00hrs) </p><p></p><p>&nbsp;</p>
-                        </span>
+                      <span class="date cell">30/03/2017</span>
+                        <span class="description cell">Fee Subject</span>
     
     
     
     
     
     
+                            <span class="total cell ">$175.00</span>
+                            <span class="total cell ">$17.50</span>
     
-                        <span class="total cell ">$20,130.00</span>
+                        <span class="total cell ">$192.50</span>
+                    </div>
+                    <div class="row fee-entry">
+                      <span class="date cell">30/03/2017</span>
+                        <span class="description cell">Fee Subject</span>
+    
+    
+    
+    
+    
+    
+                            <span class="total cell ">$150.00</span>
+                            <span class="total cell ">$15.00</span>
+    
+                        <span class="total cell ">$165.00</span>
+                    </div>
+                    <div class="row fee-entry">
+                      <span class="date cell">30/03/2017</span>
+                        <span class="description cell">Fee Subject</span>
+    
+    
+    
+    
+    
+    
+                            <span class="total cell ">$150.00</span>
+                            <span class="total cell ">$15.00</span>
+    
+                        <span class="total cell ">$165.00</span>
+                    </div>
+                    <div class="row fee-entry">
+                      <span class="date cell">30/03/2017</span>
+                        <span class="description cell">Fee Subject</span>
+    
+    
+    
+    
+    
+    
+                            <span class="total cell waived">$100.00</span>
+                            <span class="total cell waived">$10.00</span>
+    
+                        <span class="total cell waived">$110.00</span>
+                    </div>
+                    <div class="row fee-entry">
+                      <span class="date cell">30/03/2017</span>
+                        <span class="description cell">Fee Subject</span>
+    
+    
+    
+    
+    
+    
+                            <span class="total cell waived">$100.00</span>
+                            <span class="total cell waived">$10.00</span>
+    
+                        <span class="total cell waived">$110.00</span>
+                    </div>
+                    <div class="row fee-entry">
+                      <span class="date cell">30/03/2017</span>
+                        <span class="description cell">Fee Subject</span>
+    
+    
+    
+    
+    
+    
+                            <span class="total cell waived">$100.00</span>
+                            <span class="total cell waived">$10.00</span>
+    
+                        <span class="total cell waived">$110.00</span>
                     </div>
                     <div class="row">
                       <span class="date cell">&nbsp;</span>
@@ -1266,7 +1459,9 @@ div.page-summary.consolidated {
     
     
     
-                        <span class="total-of-total total cell">$20,130.00</span>
+                            <span class="total-of-total total cell">$475.00</span>
+                            <span class="total-of-total total cell">$47.50</span>
+                        <span class="total-of-total total cell">$522.50</span>
                     </div>
                 </div>
               </div>
@@ -1275,63 +1470,45 @@ div.page-summary.consolidated {
           <div style="
     ">
                 <div class="expenses list">
-                <h2>Expenses</h2>
+                <h2>Disbursements</h2>
                   <div class="grid">
                     <div class="header row">
                       <span class="date cell">Date</span>
                       <span class="description cell ">
-                          Description
+                          Subject
                       </span>
                       <span class="rate cell">Cost</span>
                       <span class="quantity cell">Qty</span>
+                          <span class="rate cell">Amount</span>
+                          <span class="total cell">GST</span>
                       <span class="total cell">Total</span>
                     </div>
                       <div class="row expense-entry">
-                        <span class="date cell">07/04/2023</span>
-                          <span class="description cell ">
-                            <p>T1.2</p>
-                            
-                          </span>
-                          <span class="rate cell">$11.00</span>
-                        <span class="quantity cell">1.00</span>
-                        <span class="total cell ">$11.00</span>
+                        <span class="date cell">30/03/2017</span>
+                          <span class="description cell">Expense Subject</span>
+                          <span class="rate cell">$500.00</span>
+                        <span class="quantity cell">0.70</span>
+                            <span class="total cell ">$350.00</span>
+                            <span class="total cell ">-</span>
+                        <span class="total cell ">$350.00</span>
                       </div>
                       <div class="row expense-entry">
-                        <span class="date cell">07/04/2023</span>
-                          <span class="description cell ">
-                            <p>T2.1</p>
-                            
-                          </span>
-                          <span class="rate cell">$9.00</span>
-                        <span class="quantity cell">1.00</span>
-                        <span class="total cell ">$9.00</span>
-                      </div>
-                      <div class="row expense-entry">
-                        <span class="date cell">07/04/2023</span>
-                          <span class="description cell ">
-                            <p>T3.1</p>
-                            
-                          </span>
-                          <span class="rate cell">$15.00</span>
-                        <span class="quantity cell">1.00</span>
-                        <span class="total cell ">$15.00</span>
-                      </div>
-                      <div class="row expense-entry">
-                        <span class="date cell">07/04/2023</span>
-                          <span class="description cell ">
-                            <p>T4</p>
-                            
-                          </span>
-                          <span class="rate cell">$2.00</span>
-                        <span class="quantity cell">12.00</span>
-                        <span class="total cell ">$24.00</span>
+                        <span class="date cell">29/03/2017</span>
+                          <span class="description cell">Expense Subject</span>
+                          <span class="rate cell">$400.00</span>
+                        <span class="quantity cell">0.60</span>
+                            <span class="total cell ">$240.00</span>
+                            <span class="total cell ">-</span>
+                        <span class="total cell ">$240.00</span>
                       </div>
                     <div class="row">
                       <span class="date cell">&nbsp;</span>
                       <span class="description cell">&nbsp;</span>
                       <span class="rate cell">&nbsp;</span>
                       <span class="quantity cell">&nbsp;</span>
-                      <span class="total-of-total total cell">$59.00</span>
+                          <span class="total-of-total total cell">$590.00</span>
+                          <span class="total-of-total total cell">$0.00</span>
+                      <span class="total-of-total total cell">$590.00</span>
                     </div>
                   </div>
                 </div>
@@ -1339,39 +1516,66 @@ div.page-summary.consolidated {
     
     
     
-          <div class="totals-block">
-            <div class="row subtotal">
-              <span class="label">Subtotal</span>
-              <span class="value">$20,189.00</span>
-            </div>
-    
-              <div class="row total">
-                <span class="label">Total</span>
-                <span class="value">$20,189.00</span>
+          <div class="totals-block-container">
+            <div class="totals-block">
+              <div class="row subtotal">
+                <span class="label">Subtotal</span>
+                <span class="value">$1,365.00</span>
               </div>
     
-    
-    
-                    <div class="row">
-                      <span class="label">Prior Balances</span>
-                      <span class="value">$1,410.00</span>
+                  <div class="row write-off">
+                    <span class="label">Write Offs</span>
+                    <span class="value">-$300.00</span>
+                  </div>
+                  <div class="row discount">
+                    <span class="label">Discounts</span>
+                    <span class="value">-$10.00</span>
+                  </div>
+                    <div class="row tax">
+                      <span class="label">GST</span>
+                      <span class="value">$46.50</span>
                     </div>
+                <div class="row total">
+                  <span class="label">Total</span>
+                  <span class="value">$1,101.50</span>
+                </div>
     
-            <!-- show less funds in trust -->
     
-            <!-- show total due excluding retainer if applicable -->
-              <div class="row total-due">
-                <span class="label">Total Balance Due</span>
-                  <span class="value r-align">$21,599.00</span>
-              </div>
+                  <div class="row payments">
+                    <span class="label">Payments</span>
+                    <span class="value">-$100.00</span>
+                  </div>
     
-            <!-- total payment due if using retainer -->
+                      <div class="row">
+                        <span class="label">Prior Balances</span>
+                        <span class="value">$735.00</span>
+                      </div>
+                      <div class="row payments">
+                        <span class="label">Payments Since Last Invoice</span>
+                        <span class="value">-$10.00</span>
+                      </div>
+                      <div class="row payments">
+                        <span class="label">Credits Since Last Invoice</span>
+                        <span class="value">-$100.00</span>
+                      </div>
+    
+              <!-- show less funds in trust -->
+    
+              <!-- show total due excluding retainer if applicable -->
+                <div class="row total-due">
+                  <span class="label">Total Balance Due</span>
+                    <span class="value r-align">$1,626.50</span>
+                </div>
+    
+              <!-- total payment due if using retainer -->
+            </div>
           </div>
     
     
     
     
-              <div class="payment-summary">
+                  <div class="page-break"></div>
+              <div class="prior-balances">
                 <h2>Prior Balances</h2>
                 <div class="grid">
                   <div class="header row">
@@ -1379,34 +1583,75 @@ div.page-summary.consolidated {
                     <span class="invoice-number cell">Invoice Number</span>
                     <span class="date cell">Due Date</span>
                     <span class="amount cell">Amount</span>
-                    <span class="amount cell">Payments/Credits</span>
+                    <span class="payments-or-credits cell">Payments/Credits</span>
                     <span class="amount cell">Due</span>
                   </div>
                     <div class="row">
-                      <span class="date cell">04/28/2023</span>
-                      <span class="invoice-number cell">1095</span>
-                      <span class="date cell">05/05/2023</span>
-                      <span class="amount cell">$1,410.00</span>
-                      <span class="amount cell">$0.00</span>
-                      <span class="amount cell">$1,410.00</span>
+                      <span class="date cell">19/01/2017</span>
+                      <span class="invoice-number cell">1</span>
+                      <span class="date cell">28/01/2017</span>
+                      <span class="amount cell">$400.00</span>
+                      <span class="payments-or-credits cell">$25.00</span>
+                      <span class="amount cell">$375.00</span>
+                    </div>
+                    <div class="row">
+                      <span class="date cell">19/02/2017</span>
+                      <span class="invoice-number cell">2</span>
+                      <span class="date cell">28/02/2017</span>
+                      <span class="amount cell">$400.00</span>
+                      <span class="payments-or-credits cell">$50.00</span>
+                      <span class="amount cell">$350.00</span>
                     </div>
                     <div class="row">
                       <span class="date total-of-total cell">Total</span>
                       <span class="invoice-number total-of-total total cell"></span>
                       <span class="date total-of-total total cell"></span>
-                      <span class="amount total-of-total total cell">$1,410.00</span>
-                      <span class="amount total-of-total total cell">$0.00</span>
-                      <span class="amount total-of-total total cell">$1,410.00</span> 
+                      <span class="amount total-of-total total cell">$800.00</span>
+                      <span class="payments-or-credits total-of-total total cell">$75.00</span>
+                      <span class="amount total-of-total total cell">$725.00</span> 
                     </div>
                 </div>
                 
               </div>
     
+                <div class="payment-summary list">
+                  <h2>Payment Summary</h2>
+                  <div class="grid">
+                    <div class="header row">
+                      <span class="date cell">Date</span>
+                      <span class="note cell">Note</span>
+                      <span class="paid-by cell">Paid By</span>
+                      <span class="source cell">Source</span>
+                      <span class="amount cell">Amount</span>
+                    </div>
+                        <div class="row">
+                          <span class="date cell"></span>
+                          <span class="note cell">Payment since last invoice</span>
+                          <span class="paid-by cell"></span>
+                          <span class="source cell">Cheque</span>
+                          <span class="amount cell">$10.00</span>
+                        </div>
+                        <div class="row">
+                          <span class="date cell"></span>
+                          <span class="note cell">Payment since last invoice</span>
+                          <span class="paid-by cell"></span>
+                          <span class="source cell">Credit</span>
+                          <span class="amount cell">$100.00</span>
+                        </div>
+                        <div class="row">
+                          <span class="date cell"></span>
+                          <span class="note cell">Payment for this invoice from trust</span>
+                          <span class="paid-by cell"></span>
+                          <span class="source cell"></span>
+                          <span class="amount cell">$100.00</span>
+                        </div>
+                  </div>
+                </div>
     
           <div class="footer-notes
           "><p></p>
               <div class="signature-image">
-                <img src="https://staging-nova-billing-data-uploads.s3.amazonaws.com/58379d99-180d-4560-bf1d-ffd5511d0c5f/1c4bc653-1932-41f9-b1e6-c8f3988d5504/signature.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72BOC65EOQ&amp;Expires&#x3D;1697004315&amp;Signature&#x3D;Kl%2BP%2BM6XvGfsUGssAHQa3NSySyg%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDBTVeiC3%2FCvyPuM36SKxAYyPaqJ4aAha%2Fylm5Iq3qCCpUUUDfw8jy9D4eXcx77hGzCH9SYxo5m8ERR0h5iZ59PRKsvXupcg%2F59d%2F1FEWstAoXcUTIpGUzY%2BVrMeiDVeeDd5dHMTf4WRKEOEi%2FnWe1TwsuNe4ofMx6x8Sn02S19H27xYZ7Cw2czvt%2FDVvTMhoEsrsVtRV1Ts2yuPbIZ87gTiNAKwy6zbpepKoM710WPgultjsXmtZ3BoGhh3QUNDGaiis2JipBjItPBENci62bl47GH5AdzOawqXg8p9Mx%2B5ng4AxkGmoznJjK9S%2B%2F6GVhsKxKLN%2B" alt=""/>
+                <img src="https://staging-aus-billing-data-uploads.s3.ap-southeast-2.amazonaws.com/ff8616b8-dec7-492c-9f77-0a8ee0f205ad/821c0e1d-0022-497f-be2f-7946e0e68c21/signature.png?AWSAccessKeyId&#x3D;ASIAT3BUTA72CCMSN7BB&amp;Expires&#x3D;1698303941&amp;Signature&#x3D;cvhGK5pGkFLj5SMBK0MDPmKNtHw%3D&amp;x-amz-security-token&#x3D;FwoGZXIvYXdzEFgaDJiQJXNthoj5o1oG5yKxAZxyeHNEpSOnziRy89kHOgW0RVZVwQK5%2FNSRfid5ClfL2YYi5nKh8GsxEe%2F0s2xiNmbggGmRTXUzcaptMzsBolm0MSpWXhWtOvK6YF%2Bpd9IwCUqp6uTpK581dMbWGrNonvvpvIjMivNMDWI1W%2FEIikrgyfgH0iKIlMgbvhTAGPAYeIlvK4oQ9F71In1bZjxtgyfw9myGdSb3fUn%2FZe6Ed4CjUxsghWfS1bvRY0xp4HD%2FySi1g%2BipBjItwCgEve0euPmRDI9%2BowlPn8MVoKS%2F%2B78UCg4cfU1407%2BfkHhgAXl2%2BWc0C9iB" alt=""/>
               </div>
           </div>
     
